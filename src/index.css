@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body  {
+        font-family: "Roboto", "Arial", sans-serif;
+    }
+}
+
+@layer base {
+    .icons-style  {
+       @apply text-xl text-gray-900 cursor-pointer
+    }
+}
